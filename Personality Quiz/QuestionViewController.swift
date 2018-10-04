@@ -177,4 +177,14 @@ class QuestionViewController: UIViewController {
         }
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "resultSegue" {
+            guard let dvc = segue.destination as? ResultsViewController else { return }
+            dvc.responses = answersChosen
+            questionIndex = 0
+            answersChosen = []
+            updateUI()
+        }
+    }
+    
 }
