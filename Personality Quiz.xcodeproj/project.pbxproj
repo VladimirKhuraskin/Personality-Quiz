@@ -14,6 +14,7 @@
 		156E70A62148ED73002A8F8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 156E70A42148ED73002A8F8B /* LaunchScreen.storyboard */; };
 		156E70AE2148F7C6002A8F8B /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156E70AD2148F7C6002A8F8B /* QuestionViewController.swift */; };
 		156E70B02148F7D6002A8F8B /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156E70AF2148F7D6002A8F8B /* ResultsViewController.swift */; };
+		15DC5E5A2165E4D0001EE234 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DC5E592165E4D0001EE234 /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		156E70A72148ED73002A8F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		156E70AD2148F7C6002A8F8B /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		156E70AF2148F7D6002A8F8B /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		15DC5E592165E4D0001EE234 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				156E709D2148ED71002A8F8B /* IntroductionViewController.swift */,
 				156E70AD2148F7C6002A8F8B /* QuestionViewController.swift */,
 				156E70AF2148F7D6002A8F8B /* ResultsViewController.swift */,
+				15DC5E592165E4D0001EE234 /* Question.swift */,
 				156E709F2148ED71002A8F8B /* Main.storyboard */,
 				156E70A22148ED73002A8F8B /* Assets.xcassets */,
 				156E70A42148ED73002A8F8B /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15DC5E5A2165E4D0001EE234 /* Question.swift in Sources */,
 				156E70AE2148F7C6002A8F8B /* QuestionViewController.swift in Sources */,
 				156E709E2148ED71002A8F8B /* IntroductionViewController.swift in Sources */,
 				156E70B02148F7D6002A8F8B /* ResultsViewController.swift in Sources */,
